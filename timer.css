@@ -1,0 +1,33 @@
+body {
+        font-family: 'Arial', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f5f5f5;
+      }
+      
+      .timer-container {
+        text-align: center;
+      }
+      
+      .timer {
+        display: inline-flex;
+        font-size: 2em;
+      }
+      
+      .digit {
+        background-color: #333;
+        color: #fff;
+        padding: 0.5em;
+        margin: 0 0.1em;
+        border-radius: 5px;
+      }
+      
+      .separator {
+        color: #333;
+        font-size: 1.5em;
+        margin: 0 0.2em;
+      }
+      
