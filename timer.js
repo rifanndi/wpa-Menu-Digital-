@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const minutesElement = document.getElementById('minutes');
   const secondsElement = document.getElementById('seconds');
 
-  let countdownTime = 60; // Set the initial countdown time to 3 minutes (in seconds)
+  let countdownTime = 30; // Set the initial countdown time to 3 minutes (in seconds)
 
   function updateTimer() {
     const minutes = Math.floor(countdownTime / 60);
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
       alert('Pesanan Siap diambil');
 
       // Redirect to index.html after pressing OK in the alert
-      window.location.href = 'index.html';
+      window.location.href = 'menu.html';
     }
   }
 
