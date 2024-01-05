@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
       countdownTime--;
     } else {
       // Display a message when the timer reaches 0
-      prompt('Meja nomer berapa');
+      alert('Pesanan Siap diambil');
 
       // Redirect to index.html after pressing OK in the alert
       window.location.href = 'index.html';
